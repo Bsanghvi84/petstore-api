@@ -1,0 +1,17 @@
+{
+  "name": "node-rest-example",
+  "version": "0.0.0",
+  "description": "Node.js REST API example application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohsen Azimi",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "~3.8.14",
+    "node-restful": "~0.1.17",
+    "express": "~4.8.4",
+    "body-parser": "~1.6.4"
+  }
+}
