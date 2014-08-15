@@ -17,7 +17,7 @@ var Pet = app.pet = restful.model('pet', mongoose.Schema({
     name: 'string',
     birthday: 'number',
   }))
-  .methods(['get', 'post', 'put', 'delete']);
+  .methods(['get', 'post', 'put']);
 
 Pet.register(app, '/pet');
 
