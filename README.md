@@ -1,0 +1,4 @@
+# Petstore API
+
+### License
+MIT
